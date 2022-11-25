@@ -8,9 +8,6 @@ img{
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
 }
-header{
-    margin-top:1rem;
-}
 .website{
     font-size:0.8rem;
     color: #fff;
@@ -88,6 +85,9 @@ i{
 @media (min-width:990px) {
     img{
         max-width: 25rem;
+    }
+    header{
+        margin-top:1rem;
     }
     .fonts{
         font-size: 0.8rem;

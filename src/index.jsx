@@ -1,12 +1,14 @@
 import React from "react"
+import ReactDOM from "react-dom/client"
 import Info from "./Info"
 import About from "./About"
 import Interest from "./Interest"
 import Footer from "./Footer"
-import ReactDOM from 'react-dom/client'
-
-
 const container = document.getElementById("root")
+
+const root =ReactDOM.createRoot(container)
+
+
 function Page(){
     return(
         <div className="container">
@@ -22,4 +24,5 @@ function Page(){
     )
     
 }
-ReactDOM.createRoot(container).render(<Page />)
+
+root.render(<Page/>)
