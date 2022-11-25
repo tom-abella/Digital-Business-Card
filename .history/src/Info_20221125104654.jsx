@@ -3,7 +3,7 @@ import myPicture from "./img/photo.jpeg"
 export default function info(){
     return(
         <header>
-                        <img src={myPicture} alt="Photo" className = "img"/>
+                        <img src={} alt="Photo" className = "img"/>
                         <p className="name h4">Tom Leonard Abella</p>
                         <p className="career h6">Frontend Developer</p>
                         <p className="website h6"><a href="https://tom-abella.github.io/Portfolio/"target="_blank">tom-abella.github.io/Portfolio/</a></p>
